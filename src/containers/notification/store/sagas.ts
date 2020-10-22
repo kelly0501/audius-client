@@ -43,7 +43,7 @@ const NATIVE_MOBILE = process.env.REACT_APP_NATIVE_MOBILE
 export const USER_INITIAL_LOAD_COUNT = 9
 
 // The interval in ms to poll for new notifications
-export const NOTIFICATION_POLLING_INTERVAL = 10000
+export const NOTIFICATION_POLLING_INTERVAL = 60000
 
 const getTimeAgo = (now: moment.Moment, date: string) => {
   const notifDate = moment(date)
